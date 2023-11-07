@@ -1,0 +1,108 @@
+body
+{
+background-image:url("gif/Isopoly_01.gif");
+background-attachment:fixed;
+background-size:cover;
+width:1000px;
+opacity:0.85;
+font-family:san-serif;
+font-size:14px;
+margin:50px auto 0 auto;
+}
+nav
+{
+background:#545454;
+padding:0 40px;
+border-radius:24px 24px 0 0;
+height:50px;
+}
+nav a
+{
+color:white;
+text-decoration:none;
+padding:17px 24px;
+float:left;
+border-right:2px solid #dcdcdc;
+}
+nav a:hover
+{
+background:#acacac;
+color:blue;
+border-radius:24px 24px 0 0;
+}
+#act
+{
+background:#dcdcdc;
+color:red;
+border-radius:24px 24px 0 0;
+}
+#one
+{
+height:1000px;
+width:150px;
+background:#dcdcdc;
+float:left;
+padding:0 24px 0 24px;
+}
+#one img
+{
+height:100px;
+width:100px;
+transition:all 1.5s ease;
+border-radius:10%;
+}
+#one img:hover
+{
+border-radius:80%;
+}
+#mn
+{
+height:1000px;
+width:600px;
+background:#fff;
+float:left;
+text-align:left;
+}
+article
+{
+height:1000px;
+width:500px;
+background:#fff;
+float:left;
+text-align:left;
+padding:8px 24px 8px 40px;
+}
+#mn img
+{
+height:150px;
+width:150px;
+transition:500ms ease;
+object-fit:cover;
+filter:grayscale(3)blur(3px);
+border:2px solid white;
+box-shadow:0 0 10px #dcdcdc;;
+margin-top:20px;
+margin-right:70px;
+}
+#mn img:hover
+{
+transform:scale(1.5);
+filter:grayscale(0)blur(0px);
+}
+aside
+{
+height:1000px;
+width:202px;
+background:#dcdcdc;
+float:right;
+text-align:justify;
+}
+#ftt
+{
+height:150px;
+width:980px;
+background:#dcdcdc;
+float:left;
+text-align:center;
+padding:10px;
+}
