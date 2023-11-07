@@ -1,0 +1,148 @@
+body
+{
+background-image:url("images/800px-Napier_Museum_Thiruvananthapuran_DSW_New.jpg");
+background-attachment:fixed;
+background-size:cover;
+opacity:0.85;
+width:1000px;
+font-family:san-serif;
+font-size:14px;
+margin:50px auto 0 auto;
+}
+nav
+{
+background:#545454;
+height:50px;
+border-radius:24px 24px 0 0;
+padding:0 40px;
+}
+nav a
+{
+color:white;
+text-decoration:none;
+padding:17px 24px;
+float:left;
+border-right:17px 24px;
+}
+nav a:hover
+{
+color:blue;
+background:#acacac;
+border-radius:24px 24px 0 0;
+}
+#act
+{
+color:red;
+background:#dcdcdc;
+border-radius:24px 24px 0 0;
+}
+#one
+{
+height:1000px;
+width:150px;
+background:#dcdcdc;
+float:left;
+padding:0 24px 0 24px;
+}
+#one img
+{
+height:100px;
+width:100px;
+transition:all 1.5s ease;
+border-radius:10%;
+}
+#one img:hover
+{
+border-radius:80%;
+}
+#mn
+{
+height:1000px;
+width:600px;
+background:#fff;
+float:left;
+text-align:left;
+}
+article
+{
+height:1000px;
+width:500px;
+background:#fff;
+float:left;
+padding:8px 17px 8px 40px;
+text-align:left;
+}
+#mn img
+{
+height:150px;
+width:150px;
+object-fit:cover;
+transition:500ms ease;
+filter:grayscale(3)blur(3px);
+border:2px solid white;
+box-shadow:0 0 10px black;
+margin-top:40px;
+margin-left:65px;
+}
+#mn img:hover
+{
+transform:scale(1.5);
+filter:grayscale(0)blur(0px);
+}
+aside
+{
+height:1000px;
+width:202px;
+background:#dcdcdc;
+float:right;
+text-align:justify;
+}
+#ftt
+{
+height:150px;
+width:980px;
+background:#dcdcdc;
+float:left;
+padding:10px;
+text-align:center;
+}
+.overlay
+{
+position:fixed;
+top:0;
+bottom:0;
+right:0;
+left:0;
+background:rgba(0,0,0,0.7);
+transition:opacity .5s;
+opacity:0;
+visibility:hidden;
+}
+.overlay:target
+{
+opacity:1;
+visibility:visible;
+}
+.popup
+{
+margin:70px auto;
+padding:20px;
+background:#fff;
+border-radius:5px;
+width:30%;
+position:relative;
+}
+.popup .close
+{
+position:absolute;
+top:30px;
+right:20px;
+font-size:30px;
+font-weight:bold;
+text-decoration:none;
+color:#333;
+}
+.popup .close:hover
+{
+color:red;
+}
