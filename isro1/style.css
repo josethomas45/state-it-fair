@@ -1,0 +1,97 @@
+body
+{ background-image:url("IMAGES/Isopoly_01.gif");
+  background-attachment:fixed;
+  background-size:cover;
+  opacity:0.85px;
+  width:1000px;
+  font-family:san-serif;
+  font-size:14px;
+  margin:50px auto 0 auto;
+}
+nav
+{ background:#545454;
+  padding:0 40px;
+  border-radius:24px 24px 0 0;
+  height:50px;
+}
+nav a
+{ color:white;
+  text-decoration:none;
+  border-right:1px solid #dcdcdc;
+  float:left;
+  padding:17px 24px;
+}
+nav a:hover
+{ background:#acacac;
+  color:red;
+  border-radius:24px 24px 0 0;
+}
+#act
+{ background:#dcdcdc;
+  color:blue;
+  border-radius:24px 24px 0 0;
+}
+#one
+{ background:#dcdcdc;
+  padding:24px 0 24px 0;
+  height:952px;
+  width:150px;
+  float:left;
+}
+#one img
+{ 
+  height:100px;
+  width:100px;
+  transition:all 1.5s ease;
+  border-radius:10%;
+}
+#one img:hover
+{
+ 
+  border-radius:80%;
+}
+#mn
+{ background:#fff;
+  height:1000px;
+  width:600px;
+  float:left;
+  text-align:left;
+}
+article
+{ background:#fff;
+  height:1000px;
+  width:500px;
+  float:left;
+  text-align:left;
+  padding:8px 24px 8px 40px;
+}
+#mn img
+{ transition:500ms ease;
+  height:150px;
+  width:150px;
+  object-fit:cover;
+  filter:grayscale(3)blur(3px);
+  border:2px solid white;
+  box-shadow:0 0 10px #dcdcdc;
+  margin-top:20px;
+  margin-left:70px;
+}
+#mn img:hover
+{ transform:scale(1.5);
+  filter:grayscale(0)blur(0px);
+}
+aside
+{ background:#dcdcdc;
+  height:1000px;
+  width:250px;
+  float:right;
+  text-align:justify;
+} 
+#ftt
+{ background:#dcdcdc;
+  height:100px;
+  width:980px;
+  float:left;
+  text-align:center;
+  padding:10px;
+} 
